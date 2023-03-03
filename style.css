@@ -1,0 +1,65 @@
+:root {
+  --head-foot-bgcolor: aquamarine;
+}
+
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.footerFont {
+  font-size: small;
+}
+
+.head-foot {
+  font-size: xx-large;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: var(--head-foot-bgcolor);
+}
+
+.main__content {
+  margin: auto;
+  padding: 1rem;
+  max-width: 80%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main__textArea {
+  background-color: aliceblue;
+  font-size: large;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  height: 30vh;
+}
+.main__btn {
+  padding: 1rem;
+}
+.main__btnSubmit {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 150px;
+}
+.main__output_Title {
+  padding: 1rem;
+  max-width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.main__outputResult {
+  border: 1px solid black;
+  font-size: large;
+  width: 80%;
+  height: 30vh;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-family: monospace;
+}
