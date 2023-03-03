@@ -40,7 +40,7 @@ body {
 }
 .main__btnSubmit {
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 5px;
   cursor: pointer;
   width: 150px;
 }
